@@ -1,0 +1,293 @@
+body{
+    padding: 0px;
+    margin: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-top: -2%;
+}
+
+
+
+/* .container{
+
+} */
+
+
+/************************ Start Copy  *******************/
+.copy{text-align: center;width: 100%;}
+.copy .image{
+    background-image: url(../images/bg-header-desktop.png);
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+}
+@media (max-width:375px){
+    .copy .image{
+        background-image: url(../images/bg-header-mobile.png);
+        background-size: cover;
+        width: 350%;
+        margin-top: 0%;
+    }
+}
+.copy .image img{margin-top: 150px;}
+
+.copy .history{
+    width: 550px;
+    margin: 10px auto;
+}
+.copy .history h1{
+    color: hsl(210, 10%, 33%);
+}
+.copy .history p{
+    color: hsl(201, 11%, 66%);
+    line-height: 1.5;
+}
+.copy .history button{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    margin: 25px 5px;
+}
+.copy .history button:hover{
+    cursor: pointer;
+}
+.copy .history .one{
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    box-shadow: 0px 1px 0px 0px hsl(171, 66%, 36%);
+}
+.copy .history .two{
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    box-shadow: 0px 1px 0px 0px hsl(233deg 100% 56%);
+}
+@media (max-width:375px){
+    .copy .history{
+        margin:10px 100%;
+    }
+}
+/************************ End Copy  *******************/
+
+
+
+
+/*************************** Start Keep ****************/
+.keep{
+    width: 610px;
+    margin: 75px auto;
+    text-align: center;
+}
+.keep h1{
+    color: hsl(210, 10%, 33%);
+}
+.keep p{
+    color: hsl(201, 11%, 66%);
+    line-height: 1.5;
+}
+@media (max-width:375px){
+    .keep{
+        margin:75px 100%;
+    }
+}
+/*************************** End Keep ****************/
+
+
+
+
+
+/*************************** Start Quick****************/
+.quick{
+    display: flex;
+    justify-content: space-between;
+    width: 1050px;
+    margin: 30px auto;
+}
+.quick .image{margin-left: -180px;}
+.quick .text{
+    width: 350px;
+    padding-right: 40px;
+}
+.quick .text h1{
+    color: hsl(210, 10%, 33%);
+
+}
+.quick .text p{
+    color: hsl(201, 11%, 66%);
+    line-height: 1.5;
+}
+@media (max-width:375px){
+    .quick{
+        margin:30px 60%;
+    }
+}
+/*************************** End Quick****************/
+
+
+
+
+
+/*************************** Start Access****************/
+.access{
+    padding: 20px;
+    margin: 80px auto;
+    width: 600px;
+    text-align: center;
+}
+.access h1{
+    color: hsl(210, 10%, 33%);
+}
+.access p{
+    color: hsl(201, 11%, 66%);
+    line-height: 1.5;
+}
+@media (max-width:375px){
+    .access{
+        margin: 80px 100%;
+    }
+}
+/*************************** End Access****************/
+
+
+
+
+
+/*************************** Start image****************/
+.image5{width: 900px;margin: 20px auto;}
+@media (max-width:375px){
+    .image5{
+        margin: 20px 60%;
+    }
+}
+/*************************** End image****************/
+
+
+
+/*************************** Start Supercharge****************/
+.supercharge{
+    width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+.supercharge h1{color: hsl(210, 10%, 33%);}
+.supercharge p{color: hsl(201, 11%, 66%);line-height: 1.5;}
+@media (max-width:375px){
+    .supercharge{
+        margin: 50px 100%;
+    }
+}
+/*************************** End Supercharge****************/
+
+
+
+
+
+
+/*************************** Start Supercharge****************/
+.create-up{
+    display: flex;
+    width: 1100px;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+.create-up .create{
+    width: 350px;
+    text-align: center;
+}
+.create-up .create .icon{
+    margin: 60px auto;
+}
+.create-up .create h1{
+    color: hsl(210, 10%, 33%);
+}
+.create-up .create p{
+    color: hsl(201, 11%, 66%);line-height: 1.5;
+}
+@media (max-width:375px){
+    .create-up{
+        margin: 20px 30%;
+    }
+}
+/*************************** End Supercharge****************/
+
+
+
+
+
+
+
+
+
+/*************************** Start Images****************/
+.images{
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    margin: 130px auto;
+    align-items: center;
+}
+/*************************** Start Images****************/
+
+
+
+
+
+
+/*************************** Start Clipboard****************/
+.clipboard{
+    width: 600px;
+    margin: 130px auto;
+    text-align: center;
+}
+.clipboard h1{
+    color: hsl(210, 10%, 33%);
+}
+.clipboard p{
+    color: hsl(201, 11%, 66%);line-height: 1.5;
+}
+.clipboard button{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    margin: 25px 5px;
+}
+.clipboard button:hover{
+    cursor: pointer;
+}
+.clipboard .one{
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    box-shadow: 0px 1px 0px 0px hsl(171, 66%, 36%);
+}
+.clipboard .two{
+    background-color: hsl(233, 100%, 69%);;
+    color: white;
+    box-shadow: 0px 1px 0px 0px hsl(233deg 100% 56%);
+}
+@media (max-width:375px){
+    .clipboard{
+        margin: 130px 100%;
+    }
+}
+/*************************** End Clipboard****************/
+
+
+
+
+
+
+/*************************** Start Footer****************/
+footer{
+    display: flex;
+    height: 200px;
+    background-color: hsl(202, 17%, 91%);
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer .cont{display: flex;}
+footer .cont .one{width: 200px;}
+footer .cont .one p{color: hsl(210, 10%, 33%);}
+@media (max-width:375px){
+    footer{
+        width: 350%;
+    }
+}
+/*************************** End Footer****************/
